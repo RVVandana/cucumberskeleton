@@ -1,0 +1,89 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Test search function",
+        "description": "",
+        "id": "test-demos-web-shop;test-search-function",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2366963,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launches to chrome",
+            "match": {
+              "location": "stepdef.user_launches_to_chrome()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 124442,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigates to demowebshop",
+            "match": {
+              "location": "stepdef.user_navigates_to_demowebshop()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 310891,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters search criteria as \"computer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"computer\"",
+                  "offset": 31
+                }
+              ],
+              "location": "stepdef.user_enters_search_criteria_as(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 55165,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on search button",
+            "match": {
+              "location": "stepdef.user_clicks_on_search_button()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 50888,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user performs close",
+            "match": {
+              "location": "stepdef.user_performs_close()"
+            },
+            "keyword": "* "
+          }
+        ]
+      }
+    ],
+    "name": "Test demos web shop",
+    "description": "",
+    "id": "test-demos-web-shop",
+    "keyword": "Feature",
+    "uri": "src/test/resources/skeleton/sc1.feature",
+    "tags": []
+  }
+]
